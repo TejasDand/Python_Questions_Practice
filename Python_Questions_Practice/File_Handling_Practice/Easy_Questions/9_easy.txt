@@ -1,0 +1,12 @@
+Explain the purpose of the  with statement in file handling.
+
+Answer:
+
+
+The with statement in Python is used for handling files safely and efficiently.
+
+Its main advantage is that it automatically closes the file, even if an error occurs during file operations.
+
+It also makes the code cleaner and easier to manage.
+
+The with statement supports all file modes like read, write, or append, making it a reliable way to work with files.

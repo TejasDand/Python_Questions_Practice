@@ -1,0 +1,19 @@
+What is the difference between  'w' and  'a' modes in file handling?
+
+Answer: 
+
+
+In Python file handling:
+
+'w' (write mode):
+This mode creates a new file or overwrites the existing file.
+Each time you write using 'w', it erases all previous content and starts fresh.
+
+'a' (append mode):
+This mode preserves the existing content of the file and adds new content to the end.
+You can append as many times as you want without losing old data.
+
+| Mode  | Meaning     | Overwrites? | Keeps old data? | Creates new file if not exist? |
+| ----- | ----------- | ----------- | --------------- | ------------------------------ |
+| 'w'   | Write mode  | Yes ✅      | No ❌          | Yes ✅                        |
+| 'a'   | Append mode | No ❌       | Yes ✅         | Yes ✅                        |

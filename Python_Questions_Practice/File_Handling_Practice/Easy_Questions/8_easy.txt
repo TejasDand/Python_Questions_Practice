@@ -1,0 +1,21 @@
+How can you close a file after opening it in Python? Why is it important?
+
+Answer:
+
+
+To close a file, we use:
+
+file.close()
+
+Closing a file is very important for these reasons:
+
+✅ Frees system resources:
+Your operating system has a limit on how many files can be open at once.
+Closing files ensures you don’t run into issues or leaks.
+
+✅ Saves data properly:
+If you're writing to a file, the data may be stored in a buffer (temporary memory).
+Closing the file forces Python to write all remaining data to disk.
+
+✅ Avoids file corruption:
+If you don’t close the file and your program crashes or stops unexpectedly, it may lead to incomplete or corrupt files.
